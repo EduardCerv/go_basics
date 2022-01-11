@@ -3,19 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	//definir y despues asignar
+	//define and after assign
 	var name  string
 	name = "Eduardo"
 
-	//definir y asignar a la vez
+	//define and assign at the same time
 	var name_2 string = "Miry"
 
-	//assignar sin definir automanticamente el compilador lo predice
+	//assign without define go automatically predict the kind of data
 	age := 31
 
 	fmt.Println(name, name_2, age)
 
-	// valores por defecto de cada tipo de variable
+	//values by default assigned by each kind of data
 	var a int
 	var b string
 	var c int64

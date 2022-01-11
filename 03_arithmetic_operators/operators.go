@@ -8,9 +8,9 @@ func main() {
 
 	result := a + b
 
-	fmt.Println("Suma: ", result)
+	fmt.Println("Sum: ", result)
 
-	//no es necesario poner los dos puntos porque ya se definio en la suma
+	//we don't need to set the colon because it was assigned in the sum
 	result = a - b
 
 	fmt.Println(result)
